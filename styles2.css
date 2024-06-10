@@ -4,7 +4,7 @@
 td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Додаємо бордер для комірок */
+    border: 1px solid #ddd; 
 }
 body{
 	margin: 0; 
@@ -14,11 +14,11 @@ body{
 .header {
     background-color: rgb(236, 232, 164);
     padding: 10px;
-    overflow: hidden; /* Дозволяє відображати плаваючі блоки належним чином */
+    overflow: hidden; 
 }
 	
 .sidebar {
-	background-color: rgb(81, 158, 240); /* синій колір */
+	background-color: rgb(81, 158, 240); 
 	padding: 10px;
 	text-align: center;
 	width: 20%; 
@@ -43,26 +43,26 @@ body{
     background-color:rgb(236, 232, 164);
     text-align: center;
     padding: 10px;
-    clear: both; /* Очищення після плаваючих блоків */
+    clear: both; 
     }
 	
-/* Стиль для абзаців */
+
 p {
-    text-align: left;  /* Вирівнювання по лівому краю */
-    text-indent: 20px; /* Відступ першого рядка */
-    margin: 0 0 10px 0; /* Відступ між абзацами (верхній і нижній) */
-    line-height: 1.5;  /* Висота рядка для читабельності */
+    text-align: left;  
+    text-indent: 20px; 
+    margin: 0 0 10px 0; 
+    line-height: 1.5;  
 }
 
 .nav {
-    float: left; /* Розміщення навігації ліворуч */
+    float: left; 
 }
 
 .nav a {
     padding: 10px;
-    display: inline-block; /* Розміщення в рядок */
+    display: inline-block; 
 }
 
 .last-cell {
-	text-align: right;  /* Вирівнювання по лівому краю */
+	text-align: right;  
 }

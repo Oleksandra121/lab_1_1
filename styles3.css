@@ -1,88 +1,88 @@
-/* Загальний стиль для сторінки */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Стиль для панелі навігації */
+
 .header {
     background-color: rgb(236, 232, 164);
-    color: black; /* Чорний текст для контрасту */
+    color: black; 
     padding: 10px;
-    display: flex; /* Вирівнювання елементів горизонтально */
-    justify-content: center; /* Центрування елементів */
-    align-items: center; /* Вирівнювання вертикально */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-/* Стиль для навігації */
+
 .nav {
-    display: flex; /* Вирівнювання в рядок */
-    gap: 30px; /* Відстань між посиланнями */
+    display: flex; 
+    gap: 30px; 
 }
 
 .nav a {
     text-decoration: underline;
-    color: blue; /* Фіолетовий текст */
+    color: blue; 
     padding: 10px;
-    background-color: rgb(236, 232, 164); /* Фон для вирівнювання з хедером */
+    background-color: rgb(236, 232, 164); 
 }
 
 .nav a:hover {
-    background-color: rgb(236, 232, 164); /* Фон при наведенні миші */
+    background-color: rgb(236, 232, 164); 
 }
 
-/* Стиль для трьох блоків в рядок */
+
 .main {
-    display: flex; /* Розміщення блоків в рядок */
-    gap: 10px; /* Відстань між блоками */
+    display: flex; 
+    gap: 10px; 
     padding: 10px;
 }
 
-/* Бічні панелі сині */
+
 .sidebar {
-    flex: 1; /* Однакова ширина для бічних панелей */
+    flex: 1; 
     background-color: rgb(81, 158, 240);
-    color: white; /* Білий текст для контрасту */
+    color: white; 
     padding: 10px;
     text-align: center;
 }
 
-/* Основний контент */
+
 .content {
-    flex: 2; /* Основний контент займає більше місця */
+    flex: 2; 
     background-color: white;
-    color: black; /* Чорний текст для контрасту */
+    color: black; 
     padding: 10px;
     text-align: center;
 }
 
-/* Додаткова червона панель внизу основного контенту */
+
 .red-panel {
-    height: 30px; /* Висота панелі */
-    background-color: red; /* Червоний фон */
-    color: white; /* Білий текст для контрасту */
+    height: 30px; 
+    background-color: red; 
+    color: white; 
 }
 
-/* Футер */
+
 .footer {
     background-color: rgb(236, 232, 164);
-    color: black; /* Чорний текст для контрасту */
+    color: black; 
     text-align: center;
     padding: 10px;
 }
 
-/* Стиль для абзаців */
+
 p {
-    text-align: left;  /* Вирівнювання по лівому краю */
-    text-indent: 20px; /* Відступ першого рядка */
-    margin: 0 0 10px 0; /* Відступ між абзацами (верхній і нижній) */
-    line-height: 1.5;  /* Висота рядка для читабельності */
-    color: black; /* Чорний текст */
+    text-align: left;  
+    text-indent: 20px; 
+    margin: 0 0 10px 0; 
+    line-height: 1.5;  
+    color: black; 
 }
 
-/* Останній стовпець */
+
 .last-cell {
-    width: 60%; /* Останній стовпець займає 60% */
-    text-align: right;  /* Вирівнювання по правому краю */
-    padding-right: 10px; /* Відступ справа для естетичності */
+    width: 60%; 
+    text-align: right;  
+    padding-right: 10px; 
 }

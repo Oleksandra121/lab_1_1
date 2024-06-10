@@ -1,4 +1,4 @@
-/* Стилі для таблиці та основних елементів */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -7,47 +7,47 @@ table {
 td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Додаємо бордер для комірок */
+    border: 1px solid #ddd; 
 }
 
-/* Бічні панелі сині */
+
 .sidebar {
-    width: 20%; /* 20% від ширини таблиці */
-    background-color: rgb(81, 158, 240); /* синій колір */
-    color: white; /* білий текст для контрасту */
+    width: 20%; 
+    background-color: rgb(81, 158, 240); 
+    color: white; 
 }
 
-/* Основний контент */
+
 .content {
-    width: 80%; /* 80% від ширини таблиці */
-    background-color: white; /* білий фон */
-    color: black; /* чорний текст для контрасту */
+    width: 80%; 
+    background-color: white; 
+    color: black; 
 }
 
-/* Поле додаткової навігації */
+
 .navigation {
-    background-color: red; /* червоний колір */
-    color: white; /* білий текст для контрасту */
+    background-color: red; 
+    color: white; 
 }
 
-/* Футер та хедер жовті */
+
 .footer, .header {
     background-color: rgb(236, 232, 164);
-    color: black; /* чорний текст для контрасту */
+    color: black; 
 }
 
-/* Стиль для абзаців */
+
 p {
-    text-align: left;  /* Вирівнювання по лівому краю */
-    text-indent: 20px; /* Відступ першого рядка */
-    margin: 0 0 10px 0; /* Відступ між абзацами (верхній і нижній) */
-    line-height: 1.5;  /* Висота рядка для читабельності */
-    color: black; /* чорний текст */
+    text-align: left;  
+    text-indent: 20px; 
+    margin: 0 0 10px 0; 
+    line-height: 1.5;  
+    color: black; 
 }
 
-/* Останній стовпець */
+
 .last-cell {
-    width: 60%; /* Останній стовпець займає 60% */
-    text-align: right;  /* Вирівнювання по правому краю */
-    padding-right: 10px; /* Відступ справа для естетичності */
+    width: 60%; 
+    text-align: right;  
+    padding-right: 10px; 
 }

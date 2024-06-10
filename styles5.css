@@ -1,4 +1,4 @@
-/* Загальний стиль для сторінки */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -6,13 +6,13 @@ body {
     padding: 0;
 }
 
-/* Стиль для заголовку */
+
 h1 {
     text-align: center;
     color: #333;
 }
 
-/* Контейнер для форми */
+
 form {
     max-width: 400px; 
     margin: 20px auto; 
@@ -22,14 +22,14 @@ form {
     border-radius: 5px; 
 }
 
-/* Стиль для лейблів */
+
 label {
     display: block; 
     font-weight: bold; 
     margin-bottom: 5px; 
 }
 
-/* Стиль для інпутів та селектів */
+
 input[type="text"], 
 input[type="email"], 
 input[type="date"], 
@@ -42,7 +42,7 @@ select {
     font-size: 14px; 
 }
 
-/* Стиль для кнопки відправлення */
+
 button {
     width: 100%; 
     padding: 10px; 
@@ -54,7 +54,7 @@ button {
     cursor: pointer; 
 }
 
-/* Стиль для кнопки при наведенні */
+
 button:hover {
     background-color: #45a049; 
 }
